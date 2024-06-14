@@ -4,9 +4,11 @@ export function createSideBarZH() {
       text: '2024年',
       collapsed: true,
       items: [
-        { text: '002期--独立开发的动力', link: '/posts/2024/002' },
-        { text: '001期--AI内容污染搜索', link: '/posts/2024/001' },
-        { text: '000期--新的开始', link: '/posts/2024/000' },
+        { text: '6 月 14 日', link: '/posts/2024/6-14' },
+        { text: '6 月 13 日', link: '/posts/2024/6-13' },
+        { text: '6 月 12 日', link: '/posts/2024/6-12' },
+        { text: '6 月 11 日', link: '/posts/2024/6-11' },
+        { text: '6 月 10 日', link: '/posts/2024/6-10' },
       ]
     }
   ]
