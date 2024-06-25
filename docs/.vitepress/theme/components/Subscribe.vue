@@ -11,7 +11,7 @@
 		</template>
 		<t-button theme="default" variant="dashed" style="margin-bottom: 10px">
 			<template #icon><NotificationIcon /></template>
-			订阅本周刊（公众号）
+			加入 AIGC 交流群
 		</t-button>
 	</t-popup>
 </template>

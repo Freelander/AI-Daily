@@ -151,3 +151,33 @@ main > div > div > pre > code {
 .VPSwitchAppearance .check {
   transform: none !important;
 }
+
+/** 自定义样式 */
+
+.vp-doc h2,h3,h4 {
+	line-height: 68px;
+	color: #00b5ad !important;
+	margin: 0;
+	border-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 16px;
+}
+
+strong, b {
+	color: rgb(34, 107, 163);
+}
+
+.vp-doc a {
+	font-style: italic;
+	color: rgb(255, 76, 0);
+}
+
+.vp-doc a:hover {
+	font-style: italic;
+	color: rgb(255, 76, 0);
+}
+
+.vp-doc img {
+	padding-top: 22px;
+	padding-bottom: 22px;
+}

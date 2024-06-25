@@ -9,11 +9,13 @@ const { isDark } = useData();
 watch(
 	isDark,
 	() => {
-    if(isDark.value) {
-      document.documentElement.setAttribute('theme-mode', 'dark');
-    } else {
-      document.documentElement.removeAttribute('theme-mode');
-    }
+	if (typeof document !== 'undefined') {
+		if(isDark.value) {
+			document.documentElement.setAttribute('theme-mode', 'dark');
+		} else {
+			document.documentElement.removeAttribute('theme-mode');
+		}
+	}
 	},
 	{
 		immediate: true,
