@@ -3,18 +3,18 @@ import { writeFileSync } from "node:fs";
 import { Feed } from "feed";
 import { createContentLoader, type SiteConfig } from "vitepress";
 
-const hostname = "https://fav0.com";
+const hostname = "https://daily.gojun.me";
 
 export async function createRssFileZH(config: SiteConfig) {
   const feed = new Feed({
-    title: "FAV0周刊",
-    description: "《FAV0周刊》：记录每周所见所闻，主要关注前端、AI领域以及计算机相关内容",
+    title: "高军 AI 日报",
+    description: "《高军 AI 日报》：内容涵盖但不限于前沿 AI 资讯、AI 工具、AI 绘画、开源项目和学习教程等。",
     id: hostname,
     link: hostname,
     language: "zh-Hans",
     image: "/favicon.png",
     favicon: `/favicon.ico`,
-    copyright: "Copyright© 2024-present Justin3go",
+    copyright: "Copyright© 2024-present GoJun",
   });
 
   const posts = await createContentLoader("posts/**/*.md", {
@@ -38,9 +38,9 @@ export async function createRssFileZH(config: SiteConfig) {
       content: html,
       author: [
         {
-          name: "Justin3go",
-          email: "just@justin3go.com",
-          link: "https://justin3go.com",
+          name: "GoJun",
+          email: "huanggaojun13@gmai.com",
+          link: "https://daily.gojun.me",
         },
       ],
       date: frontmatter.date,
@@ -52,14 +52,14 @@ export async function createRssFileZH(config: SiteConfig) {
 
 export async function createRssFileEN(config: SiteConfig) {
   const feed = new Feed({
-    title: "FAV0 Weekly",
-    description: "FAV0 Weekly: Documenting Weekly Observations and Experiences, with a Focus on Front-end Development, AI, and Computer-related Topics",
+    title: "高军 AI 日报",
+    description: "《高军 AI 日报》：内容涵盖但不限于前沿 AI 资讯、AI 工具、AI 绘画、开源项目和学习教程等。",
     id: hostname,
     link: hostname,
     language: "en-US",
     image: "/favicon.png",
     favicon: `/favicon.ico`,
-    copyright: "Copyright© 2024-present Justin3go",
+    copyright: "Copyright© 2024-present GoJun",
   });
 
   const posts = await createContentLoader("en/posts/**/*.md", {
@@ -83,9 +83,9 @@ export async function createRssFileEN(config: SiteConfig) {
       content: html,
       author: [
         {
-          name: "Justin3go",
-          email: "just@justin3go.com",
-          link: "https://justin3go.com",
+          name: "GoJun",
+          email: "huanggaojun13@gmail.com",
+          link: "https://daily.gojun.me",
         },
       ],
       date: frontmatter.date,

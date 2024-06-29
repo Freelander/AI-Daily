@@ -28,7 +28,7 @@ export function handleHeadMeta(context: TransformContext) {
 }
 
 export function addBase(relativePath: string) {
-  const host = 'https://fav0.com'
+  const host = 'https://daily.gojun.me'
   if (relativePath.startsWith('/')) {
     return host + relativePath
   } else {

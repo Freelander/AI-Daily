@@ -31,11 +31,11 @@ export default defineConfig({
     ],
 
     editLink: {
-      pattern: "https://github.com/Justin3go/FAV0/edit/master/docs/:path",
+      pattern: "https://github.com/Freelander/AI-Daily/edit/master/docs/:path",
       text: "在GitHub上编辑此页",
     },
     returnToTopLabel: "回到顶部",
-    sidebarMenuLabel: "目录",
+    sidebarMenuLabel: "时间线",
     darkModeSwitchLabel: "深色模式",
   },
 })

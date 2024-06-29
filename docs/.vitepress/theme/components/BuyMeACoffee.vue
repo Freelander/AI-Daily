@@ -5,7 +5,7 @@
 			size="large"
 			class="btn"
 			tag="a"
-			href="https://ko-fi.com/V7V6YU3UT"
+			href="https://ko-fi.com/gojun"
       target="_blank"
 			>☕️ Buy Me a Coffee →</t-button
 		>

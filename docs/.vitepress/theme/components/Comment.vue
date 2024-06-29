@@ -3,10 +3,10 @@
 		<!-- params generate in https://giscus.app/zh-CN -->
 		<Giscus
 			v-if="showComment"
-			repo="Justin3go/FAV0"
-			repo-id="R_kgDOMAyo3w"
+			repo="Freelander/AI-Daily"
+			repo-id="R_kgDOMJdJuA"
 			category="General"
-			category-id="DIC_kwDOMAyo384Cfno-"
+			category-id="DIC_kwDOMJdJuM4CgeMF"
 			mapping="specific"
 			:term="term"
 			strict="1"
@@ -28,7 +28,10 @@ import Giscus from "@giscus/vue";
 const route = useRoute();
 const { isDark } = useData();
 
-const term = computed(() => route.path.slice(-3));
+const term = computed(() => {
+  const pathParts = route.path.split('/');
+  return pathParts[pathParts.length - 1];
+});
 const theme = computed(() => (isDark.value ? "noborder_dark" : "noborder_light"));
 const lang = computed(() => route.path.startsWith("/en") ? 'en' : 'zh-Hans');
 

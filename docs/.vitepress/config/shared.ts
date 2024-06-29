@@ -14,7 +14,7 @@ export default defineConfig({
   cleanUrls: true,
   ignoreDeadLinks: true,
   sitemap: {
-    hostname: 'https://fav0.com'
+    hostname: 'https://daily.gojun.com'
   },
   head: [
     ["script", { async: "", src: "https://www.googletagmanager.com/gtag/js?id=G-Z6HGDC7ZBL" }],

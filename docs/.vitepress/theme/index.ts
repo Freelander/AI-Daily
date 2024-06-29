@@ -17,7 +17,7 @@ export default {
 			// https://vitepress.dev/guide/extending-default-theme#layout-slots
 			"doc-after": () => h(Comment),
 			"doc-bottom": () => h(ImageViewer),
-			"doc-footer-before": () => h(BuyMeACoffee),
+			// "doc-footer-before": () => h(BuyMeACoffee),
 			"aside-top": () => h(Subscribe),
 		});
 	},
