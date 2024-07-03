@@ -4,6 +4,8 @@ export function createSideBarZH() {
       text: '2024年',
       collapsed: true,
       items: [
+        { text: '7 月 3 日', link: '/posts/2024/7-03' },
+        { text: '7 月 2 日', link: '/posts/2024/7-02' },
         { text: '7 月 1 日', link: '/posts/2024/7-01' },
         { text: '6 月 30 日', link: '/posts/2024/6-30' },
         { text: '6 月 29 日', link: '/posts/2024/6-29' },
