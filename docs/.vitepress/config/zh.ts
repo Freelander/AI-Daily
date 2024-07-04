@@ -1,6 +1,7 @@
 import { DefaultTheme, defineConfig } from 'vitepress'
 
 import { createSideBarZH } from "../utils/createSideBar";
+import { link } from 'fs';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -18,6 +19,11 @@ export default defineConfig({
     lastUpdatedText: "最近更新时间",
 
     sidebar: createSideBarZH(),
+
+    nav: [
+      {text: 'AI 日报', link: '/index'},
+      {text: '关于我', link: 'https://gojun.me'},
+    ],
 
     socialLinks: [
       { icon: 'x', link: 'https://x.com/GoJun315' },
