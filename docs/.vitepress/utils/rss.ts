@@ -39,7 +39,6 @@ export async function createRssFileZH(config: SiteConfig) {
       author: [
         {
           name: "GoJun",
-          email: "huanggaojun13@gmai.com",
           link: "https://daily.gojun.me",
         },
       ],

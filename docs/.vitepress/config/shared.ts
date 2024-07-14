@@ -37,7 +37,7 @@ export default defineConfig({
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: { src: '/favicon.png', width: 24, height: 24 },
+    logo: { src: '/favicon-512x512.png', width: 24, height: 24 },
     outline: [2, 4],
 
     search: {
