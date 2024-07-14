@@ -6,12 +6,12 @@
 	<t-popup v-else placement="right" show-arrow destroy-on-close>
 		<template #content>
 			<div class="img-container">
-				<img src="https://oss.justin3go.com/Justin3goWXGZH_QR.png" alt="" />
+				<img src="https://cdn.jsdelivr.net/gh/freelander/oss@master/img/weixin-qr.png" alt="" />
 			</div>
 		</template>
 		<t-button theme="default" variant="dashed" style="margin-bottom: 10px">
 			<template #icon><NotificationIcon /></template>
-			加入 AIGC 交流群
+			交个朋友
 		</t-button>
 	</t-popup>
 </template>
@@ -24,7 +24,7 @@ const route = useRoute();
 const isEN = computed(() => route.path.startsWith("/en"));
 
 function jumpToMedium() {
-	window.open("https://medium.com/@Justin3go", "_blank");
+	window.open("https://medium.com/@GoJun", "_blank");
 }
 </script>
 <style scoped>

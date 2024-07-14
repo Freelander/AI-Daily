@@ -5,7 +5,7 @@ export function handleHeadMeta(context: TransformContext) {
   const { description, title, relativePath, frontmatter } = context.pageData;
 
   const curDesc = description || context.description;
-  const cover = frontmatter.cover || 'https://fav0.com/favicon-512x512.png'
+  const cover = frontmatter.cover || 'https://cdn.jsdelivr.net/gh/freelander/oss@master/img/icon-512x512.png'
   const cardType = frontmatter.cover ? 'summary_large_image' : 'summary'
   // 增加Twitter卡片
   const ogUrl: HeadConfig = ["meta", { property: "og:url", content: addBase(relativePath) }]

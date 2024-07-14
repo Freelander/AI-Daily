@@ -20,10 +20,10 @@ export default defineConfig({
 
     sidebar: createSideBarZH(),
 
-    nav: [
-      {text: 'AI 日报', link: '/index'},
-      {text: '关于我', link: 'https://gojun.me'},
-    ],
+    // nav: [
+    //   {text: 'AI 日报', link: '/index'},
+    //   {text: '关于我', link: 'https://gojun.me'},
+    // ],
 
     socialLinks: [
       { icon: 'x', link: 'https://x.com/GoJun315' },

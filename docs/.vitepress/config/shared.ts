@@ -14,19 +14,11 @@ export default defineConfig({
   cleanUrls: true,
   ignoreDeadLinks: true,
   sitemap: {
-    hostname: 'https://daily.gojun.com'
+    hostname: 'https://daily.gojun.me'
   },
   head: [
-    ["script", { async: "", src: "https://www.googletagmanager.com/gtag/js?id=G-Z6HGDC7ZBL" }],
-    [
-      "script",
-      {},
-      `window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-Z6HGDC7ZBL');`,
-    ],
-
+    // 添加 Umami 跟踪代码
+    ["script", { defer: "", src: "https://cloud.umami.is/script.js", "data-website-id": "622607f4-b160-40d2-83cf-feccf5a822e2" }],
     [
       "link",
       {
