@@ -11,7 +11,7 @@
 		</template>
 		<t-button theme="default" variant="dashed" style="margin-bottom: 10px">
 			<template #icon><NotificationIcon /></template>
-			交个朋友
+			交个朋友（备注：AI Daily）
 		</t-button>
 	</t-popup>
 </template>
