@@ -18,7 +18,7 @@ export default defineConfig({
   },
   head: [
     // 添加 Umami 跟踪代码
-    ["script", { defer: "", src: "https://cloud.umami.is/script.js", "data-website-id": "622607f4-b160-40d2-83cf-feccf5a822e2" }],
+    ["script", { defer: "", src: "https://cloud.umami.is/script.js", "data-website-id": "614c30a9-8fcc-47ce-a3b3-bc4849318f0a" }],
     [
       "link",
       {
