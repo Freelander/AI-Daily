@@ -6,7 +6,7 @@ import { link } from 'fs';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "高军 AI 日报",
-  description: "《高军 AI 日报》：内容涵盖但不限于前沿 AI 资讯、AI 工具、AI 绘画、开源项目和学习教程等。",
+  description: "《高军 AI 日报》：每天花 1 分钟时间，获取精选的前沿 AI 信息。内容涵盖但不限于前沿 AI 资讯、AI 工具、AI 绘画、开源项目和学习教程等。",
   lang: "zh-Hans", //语言
 
   themeConfig: {

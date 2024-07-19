@@ -1,70 +1,71 @@
-<h4 align="right"><strong>English</strong> | <a href="./README.zh.md">简体中文</a> </h4>
+<h4 align="right"><a href="./README.md">English</a> | <strong>简体中文</strong></h4>
 
 <div align="center">
 
-<a href="https://fav0.com" target="blank">
-  <img src="https://fav0.com/favicon-512x512.png" height="100px" alt="logo" style="border-radius: 20px"/>
+<a href="https://daily.gojun.me" target="blank">
+  <img src="https://cdn.jsdelivr.net/gh/freelander/oss@master/img/icon-512x512.png" height="100px" alt="logo" style="border-radius: 20px"/>
 </a>
 
-# FAV0 Weekly
+# "GoJun AI Daily"
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![VitePress](https://img.shields.io/badge/VitePress-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Vue-3](https://img.shields.io/badge/Vue-3-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
-![TDesign](https://img.shields.io/badge/TDesign-0052CC?style=for-the-badge&logo=tdesign&logoColor=white)
-![Cloudflare Pages](https://img.shields.io/badge/Cloudflare%20Pages-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
-![Giscus](https://img.shields.io/badge/Giscus-181717?style=for-the-badge&logo=github&logoColor=white)
-![Support RSS](https://img.shields.io/badge/Support%20RSS-FFA500?style=for-the-badge&logo=rss&logoColor=white)
-![Support I18N](https://img.shields.io/badge/Support%20I18N-0078D4?style=for-the-badge&logo=google-translate&logoColor=white)
-![SEO](https://img.shields.io/badge/SEO-4285F4?style=for-the-badge&logo=google&logoColor=white)
-
-Record what I see and hear every week, mainly focusing on front-end, AI, and computer-related content.
-
-Updated every Saturday/weekend, with updates synchronized with releases. Feel free to star/watch releases in custom to stay updated with the latest weekly releases.
-
-[![changelog](https://img.shields.io/badge/changelog-→-0052CC?style=for-the-badge&logo=ReSharper&logoColor=white)](./CHANGELOG.md)
-
-
-[![PR Welcome](https://img.shields.io/badge/PR-Welcome-EA4AAA?style=for-the-badge&logo=git&logoColor=white)](https://github.com/Justin3go/FAV0/pulls)
-[![Request-Feature](https://img.shields.io/badge/Request-Feature-007BFF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Justin3go/FAV0/issues/new/choose)
-[![Report-Bug](https://img.shields.io/badge/Report-Bug-red?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Justin3go/FAV0/issues/new/choose)
+Spend 1 minute a day to get selected cutting-edge AI information.
 
 ![demo](./images/demo.png)
 
 </div>
 
+The content covers but is not limited to **cutting-edge AI news**, **AI tools**, **AI drawing**, **open-source projects**, and **learning tutorials**, etc.
+
+Updated regularly every evening, providing RSS service subscription, and you can also follow project updates via Star/Watch.
+
+For more important information, it will be independently published on social channels for detailed introduction, and you can follow my [X (Twitter)](https://x.com/GoJun315) account.
+
 ## Features
 
+1. 🌓 Provides light and dark mode switching to suit different reading environments.
+2. 📡 Provides RSS subscription service, supporting content updates in both Chinese and English.
+3. 💬 Integrated Giscus comment system for user interaction and feedback.
+4. 🖼️ Supports high-definition image preview to enhance the visual experience.
+5. 📜 Allows custom font settings to improve reading comfort.
+6. 🔍 SEO optimization, including Sitemap generation, Twitter Card, and Open Graph tags to improve search engine visibility.
 
-1. 🌓 Provides light and dark mode switching to adapt to different reading environments.
-2. 🌍 Supports bilingual interface in Chinese and English for the convenience of users of different languages.
-3. 📡 Provides RSS subscription function, supporting updates in both Chinese and English.
-4. 💬 Integrated Giscus comment system for user communication and feedback.
-5. 🖼️ Supports high-definition image preview for optimized visual experience.
-6. 📜 Allows customization of font settings for improved reading comfort.
-7. 🔍 Performs SEO optimization, including Sitemap generation, Twitter Card, and Open Graph tag support to improve search engine visibility.
+## TODO
 
+- [ ] 🌍 Support for bilingual interface in Chinese and English to facilitate use by users of different languages.
+- [ ] 📧 Provide email subscription service.
 
 ## Development
 
-```bash
-git clone git@github.com:Justin3go/FAV0.git
-cd FAV0
+This project is built based on the [FAV0](https://github.com/Justin3go/FAV0) template, using the VitePress framework.
 
-npm i -g pnpm # if needed
+```bash
+git clone git@github.com:Freelander/AI-Daily.git
+cd AI-Daily
+
+npm i -g pnpm # If necessary
 pnpm i
 pnpm docs:dev
 ```
-1. Modify the giscus comment configuration in `.vitepress/theme/components/Comments.vue`, specifically the `giscus` configuration;
-2. Modify the sidebar configuration, RSS configuration, metadata configuration, etc., in the `utils` folder;
-3. Modify the related configurations in the `config` folder, mainly title, description, etc.;
-4. Change the content of the articles in the `posts/**` and `en/posts/**` directories to your own content;
+
+**Directory Description:**
+
+Mainly look at the files in the `docs` folder.
+
+- `.vitepress`: All configurations of the website are in this folder.
+  - `dist`: The output location of all resources generated by the website, also the target location for deployment.
+  - `config`: Configurations related to the website's title, description, icon, language, navigation, tracking code, etc.
+  - `theme`: Configurations related to the website's theme, page styles, and functional components (Giscus comments, appreciation), etc.
+  - `utils`: Configurations related to the website's sidebar, RSS, metadata, etc.
+- `assets/fonts`: The font packages used by the website.
+- `posts/**` and `en/posts/**`: The files in this folder are your own output content.
+
+If you need to carry out secondary development, it is recommended to have some understanding of VitePress first. Detailed documentation is [here](https://vitepress.dev/zh/).
 
 ## License
 
-This repository is dual-licensed under the MIT License and CC-BY-4.0 License:
+This repository is dual-licensed under the MIT License and the CC-BY-4.0 License:
 
-- All `.md` files are licensed under the CC-BY-4.0 License, you need to retain attribution.
-- Other code files are licensed under the MIT License, you may use them freely.
+- All `.md` files are under the CC-BY-4.0 License, and you need to retain the attribution.
+- Other code files are under the MIT License, and you can freely use them.
 
-For more details, please see the [LICENSE](./LICENSE) file.
+Please refer to the [LICENSE](./LICENSE) file for specific content.

@@ -8,7 +8,7 @@ const hostname = "https://daily.gojun.me";
 export async function createRssFileZH(config: SiteConfig) {
   const feed = new Feed({
     title: "高军 AI 日报",
-    description: "《高军 AI 日报》：内容涵盖但不限于前沿 AI 资讯、AI 工具、AI 绘画、开源项目和学习教程等。",
+    description: "《高军 AI 日报》：每天花 1 分钟时间，获取精选的前沿 AI 信息。内容涵盖但不限于前沿 AI 资讯、AI 工具、AI 绘画、开源项目和学习教程等。",
     id: hostname,
     link: hostname,
     language: "zh-Hans",
@@ -39,6 +39,7 @@ export async function createRssFileZH(config: SiteConfig) {
       author: [
         {
           name: "GoJun",
+          email: "https://daily.gojun.me",
           link: "https://daily.gojun.me",
         },
       ],
@@ -52,7 +53,7 @@ export async function createRssFileZH(config: SiteConfig) {
 export async function createRssFileEN(config: SiteConfig) {
   const feed = new Feed({
     title: "高军 AI 日报",
-    description: "《高军 AI 日报》：内容涵盖但不限于前沿 AI 资讯、AI 工具、AI 绘画、开源项目和学习教程等。",
+    description: "《高军 AI 日报》：每天花 1 分钟时间，获取精选的前沿 AI 信息。内容涵盖但不限于前沿 AI 资讯、AI 工具、AI 绘画、开源项目和学习教程等。",
     id: hostname,
     link: hostname,
     language: "en-US",
@@ -83,7 +84,7 @@ export async function createRssFileEN(config: SiteConfig) {
       author: [
         {
           name: "GoJun",
-          email: "huanggaojun13@gmail.com",
+          email: "https://daily.gojun.me",
           link: "https://daily.gojun.me",
         },
       ],
