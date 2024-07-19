@@ -3,7 +3,7 @@
 <div align="center">
 
 <a href="https://daily.gojun.me" target="blank">
-  <img src="https://cdn.jsdelivr.net/gh/freelander/oss@master/img/icon-512x512.png" height="100px" alt="logo"/>
+  <img src="https://cdn.jsdelivr.net/gh/freelander/oss@master/img/logo.png" height="100px" alt="logo"/>
 </a>
 
 # "GoJun AI Daily"
