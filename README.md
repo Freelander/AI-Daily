@@ -1,9 +1,9 @@
-<h4 align="right"><a href="./README.md">English</a> | <strong>简体中文</strong></h4>
+<h4 align="right"><strong>English</strong> | <a href="./README.md">简体中文</a></h4>
 
 <div align="center">
 
 <a href="https://daily.gojun.me" target="blank">
-  <img src="https://cdn.jsdelivr.net/gh/freelander/oss@master/img/icon-512x512.png" height="100px" alt="logo" style="border-radius: 20px"/>
+  <img src="https://cdn.jsdelivr.net/gh/freelander/oss@master/img/icon-512x512.png" height="100px" alt="logo" style="max-width: 100%;border-radius: 20px"/>
 </a>
 
 # "GoJun AI Daily"
