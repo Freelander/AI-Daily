@@ -28,10 +28,10 @@ For more important information, it will be independently published on social cha
 4. 🖼️ Supports high-definition image preview to enhance the visual experience.
 5. 📜 Allows custom font settings to improve reading comfort.
 6. 🔍 SEO optimization, including Sitemap generation, Twitter Card, and Open Graph tags to improve search engine visibility.
+7. 🌍 Support for bilingual interface in Chinese and English to facilitate use by users of different languages.
 
 ## TODO
 
-- [ ] 🌍 Support for bilingual interface in Chinese and English to facilitate use by users of different languages.
 - [ ] 📧 Provide email subscription service.
 
 ## Development
