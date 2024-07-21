@@ -4,6 +4,7 @@ export function createSideBarZH() {
       text: '2024 年',
       collapsed: false,
       items: [
+        { text: '7 月 21 日', link: '/posts/2024/7-21' },
         { text: '7 月 20 日', link: '/posts/2024/7-20' },
         { text: '7 月 19 日', link: '/posts/2024/7-19' },
         { text: '7 月 18 日', link: '/posts/2024/7-18' },
@@ -42,6 +43,7 @@ export function createSideBarEN() {
       text: 'The Year 2024',
       collapsed: true,
       items: [
+        { text: 'July 21', link: '/en/posts/2024/7-21' },
         { text: 'July 20', link: '/en/posts/2024/7-20' },
         { text: 'July 19', link: '/en/posts/2024/7-19' },
         { text: 'July 18', link: '/en/posts/2024/7-18' },
