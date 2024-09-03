@@ -63,7 +63,13 @@ pnpm docs:dev
 - `assets/fonts`: 存放网站使用到的字体包。
 - `posts/**` 与 `en/posts/**`: 该文件夹下的文件为你自己输出的内容。
 
-如果你需要进行二次开发，建议先对 VitePress 有所了解，详细的文档 [在这里](https://vitepress.dev/zh/)。
+**常用的几条命令：**
+
+- `pnpm docs:dev`: 本地运行项目，能实时预览到修改内容。
+- `pnpm docs:build`: 构建用于生产环境的站点。
+- `pnpm docs:preview`: 在本地预览生产环境的站点。
+
+如果你想对该项目进行二次开发，建议先对 VitePress 有所了解，详细的文档 [在这里](https://vitepress.dev/zh/)。
 
 ## 协议
 

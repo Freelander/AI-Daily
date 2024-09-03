@@ -181,3 +181,26 @@ strong, b {
 	padding-top: 22px;
 	padding-bottom: 22px;
 }
+
+
+/**
+ * 字体颜色控制
+ *
+ * - `text-1`: Used for primary text.
+ *
+ * - `text-2`: Used for muted texts, such as "inactive menu" or "info texts".
+ *
+ * - `text-3`: Used for subtle texts, such as "placeholders" or "caret icon".
+ * -------------------------------------------------------------------------- */
+
+ :root {
+	--vp-c-text-1: rgba(51, 51, 51);
+	--vp-c-text-2: rgba(51, 51, 51, 0.78);
+	--vp-c-text-3: rgba(51, 51, 51, 0.56);
+  }
+  
+  .dark {
+	--vp-c-text-1: rgba(255, 255, 245, 0.86);
+	--vp-c-text-2: rgba(235, 235, 245, 0.6);
+	--vp-c-text-3: rgba(235, 235, 245, 0.38);
+  }
