@@ -13,7 +13,7 @@ export async function createRssFileZH(config: SiteConfig) {
     link: hostname,
     language: "zh-Hans",
     image: "/favicon.png",
-    favicon: `/favicon.ico`,
+    favicon: "/favicon.ico",
     copyright: "Copyright© 2024-present GoJun",
   });
 
@@ -58,7 +58,7 @@ export async function createRssFileEN(config: SiteConfig) {
     link: hostname,
     language: "en-US",
     image: "/favicon.png",
-    favicon: `/favicon.ico`,
+    favicon: "/favicon.ico",
     copyright: "Copyright© 2024-present GoJun",
   });
 
