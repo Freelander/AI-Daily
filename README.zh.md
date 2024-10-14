@@ -19,7 +19,7 @@
 
 每天晚上定时更新，提供 RSS 服务订阅，也可通过 Star/Watch 关注项目的更新。
 
-对于较为重要信息，会在社交渠道独立发布进行详细介绍，可关注我的 [X(Twitter)](https://x.com/GoJun315) 账号。
+对于较为重要信息，会在社交渠道独立发布进行详细介绍，可关注我的 [X(Twitter)](https://x.com/intent/follow?screen_name=GoJun315) 账号。
 
 
 ## 功能特性

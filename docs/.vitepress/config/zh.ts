@@ -26,7 +26,7 @@ export default defineConfig({
     // ],
 
     socialLinks: [
-      { icon: 'x', link: 'https://x.com/GoJun315' },
+      { icon: 'x', link: 'https://x.com/intent/follow?screen_name=GoJun315' },
       { icon: 'github', link: 'https://github.com/freelander' },
       {
         icon: {

@@ -18,7 +18,7 @@ The content covers but is not limited to **cutting-edge AI news**, **AI tools**,
 
 Updated regularly every evening, providing RSS service subscription, and you can also follow project updates via Star/Watch.
 
-For more important information, it will be independently published on social channels for detailed introduction, and you can follow my [X (Twitter)](https://x.com/GoJun315) account.
+For more important information, it will be independently published on social channels for detailed introduction, and you can follow my [X (Twitter)](https://x.com/intent/follow?screen_name=GoJun315) account.
 
 ## Features
 

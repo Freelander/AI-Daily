@@ -24,7 +24,7 @@ const route = useRoute();
 const isEN = computed(() => route.path.startsWith("/en"));
 
 function jumpToX() {
-	window.open("https://x.com/GoJun315", "_blank");
+	window.open("https://x.com/intent/follow?screen_name=GoJun315", "_blank");
 }
 </script>
 <style scoped>
