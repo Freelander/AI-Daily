@@ -4,6 +4,7 @@ export function createSideBarZH() {
       text: '2024 年',
       collapsed: false,
       items: [
+        { text: '10 月 30 日', link: '/posts/2024/10-30' },
         { text: '10 月 29 日', link: '/posts/2024/10-29' },
         { text: '10 月 28 日', link: '/posts/2024/10-28' },
         { text: '10 月 27 日', link: '/posts/2024/10-27' },
@@ -136,6 +137,7 @@ export function createSideBarEN() {
       text: 'The Year 2024',
       collapsed: true,
       items: [
+        { text: 'October 30', link: '/en/posts/2024/10-30' },
         { text: 'October 29', link: '/en/posts/2024/10-29' },
         { text: 'October 28', link: '/en/posts/2024/10-28' },
         { text: 'October 27', link: '/en/posts/2024/10-27' },
